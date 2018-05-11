@@ -1,0 +1,11 @@
+/home/knifey-moloko/IDEs/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/knifey-moloko/Programming/C/C_basics_stuff/CharacterCount
+-- The C compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/knifey-moloko/Programming/C/C_basics_stuff/CharacterCount/cmake-build-debug

@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.17-65.current - x86_64
+The system is: Linux - 4.13.0-41-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,99 +10,104 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_32567/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_32567.dir/build.make CMakeFiles/cmTC_32567.dir/build
-gmake[1]: Entering directory '/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_32567.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_32567.dir/testCCompiler.c.o   -c /home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_32567
-/home/newton/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32567.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_32567.dir/testCCompiler.c.o  -o cmTC_32567 
-gmake[1]: Leaving directory '/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8ed36/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ed36.dir/build.make CMakeFiles/cmTC_8ed36.dir/build
+make[1]: Entering directory '/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ed36.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8ed36.dir/testCCompiler.c.o   -c /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8ed36
+/home/knifey-moloko/Downloads/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ed36.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8ed36.dir/testCCompiler.c.o  -o cmTC_8ed36 
+make[1]: Leaving directory '/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_4e75b/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_4e75b.dir/build.make CMakeFiles/cmTC_4e75b.dir/build
-gmake[1]: Entering directory '/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4e75b.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_4e75b.dir/CMakeCCompilerABI.c.o   -c /home/newton/CLion/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_4e75b
-/home/newton/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e75b.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_4e75b.dir/CMakeCCompilerABI.c.o  -o cmTC_4e75b 
+Run Build Command:"/usr/bin/make" "cmTC_2532b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2532b.dir/build.make CMakeFiles/cmTC_2532b.dir/build
+make[1]: Entering directory '/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2532b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2532b.dir/CMakeCCompilerABI.c.o   -c /home/knifey-moloko/Downloads/CLion/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2532b
+/home/knifey-moloko/Downloads/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2532b.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_2532b.dir/CMakeCCompilerABI.c.o  -o cmTC_2532b 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/lto-wrapper
-Target: x86_64-solus-linux
-Configured with: ../configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --with-linker-hash-style=gnu --with-gnu-ld --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.3.0 (Solus) 
-COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/
-LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e75b' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-solus-linux/7.3.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/7.3.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDRZtjZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_4e75b /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0 -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../.. CMakeFiles/cmTC_4e75b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e75b' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2532b' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6kx6kQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2532b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2532b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_4e75b/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_4e75b.dir/build.make CMakeFiles/cmTC_4e75b.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_4e75b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_4e75b.dir/CMakeCCompilerABI.c.o   -c /home/newton/CLion/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_4e75b]
-  ignore line: [/home/newton/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e75b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_4e75b.dir/CMakeCCompilerABI.c.o  -o cmTC_4e75b ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2532b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2532b.dir/build.make CMakeFiles/cmTC_2532b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2532b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2532b.dir/CMakeCCompilerABI.c.o   -c /home/knifey-moloko/Downloads/CLion/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2532b]
+  ignore line: [/home/knifey-moloko/Downloads/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2532b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_2532b.dir/CMakeCCompilerABI.c.o  -o cmTC_2532b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/lto-wrapper]
-  ignore line: [Target: x86_64-solus-linux]
-  ignore line: [Configured with: ../configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --with-linker-hash-style=gnu --with-gnu-ld --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.3.0 (Solus) ]
-  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e75b' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-solus-linux/7.3.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/7.3.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDRZtjZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_4e75b /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0 -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../.. CMakeFiles/cmTC_4e75b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crtn.o]
-    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/collect2] ==> ignore
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2532b' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6kx6kQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2532b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2532b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccDRZtjZ.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6kx6kQ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/usr/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4e75b] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crt1.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crti.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtbegin.o] ==> ignore
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/7.3.0] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0]
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../..]
-    arg [CMakeFiles/cmTC_4e75b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [cmTC_2532b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_2532b.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -112,32 +117,35 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtend.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crtn.o] ==> ignore
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0] ==> [/usr/lib64/gcc/x86_64-solus-linux/7.3.0]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64] ==> [/usr/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../..] ==> [/usr/lib64]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/usr/lib64/gcc/x86_64-solus-linux/7.3.0;/usr/lib64;/lib64]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_2b890/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_2b890.dir/build.make CMakeFiles/cmTC_2b890.dir/build
-gmake[1]: Entering directory '/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2b890.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2b890.dir/feature_tests.c.o   -c /home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2b890
-/home/newton/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b890.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_2b890.dir/feature_tests.c.o  -o cmTC_2b890 
-gmake[1]: Leaving directory '/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3fc25/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3fc25.dir/build.make CMakeFiles/cmTC_3fc25.dir/build
+make[1]: Entering directory '/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fc25.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3fc25.dir/feature_tests.c.o   -c /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3fc25
+/home/knifey-moloko/Downloads/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fc25.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3fc25.dir/feature_tests.c.o  -o cmTC_3fc25 
+make[1]: Leaving directory '/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -147,17 +155,17 @@ gmake[1]: Leaving directory '/home/newton/Programming/C/InputOutputBasic/cmake-b
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_371e7/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_371e7.dir/build.make CMakeFiles/cmTC_371e7.dir/build
-gmake[1]: Entering directory '/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_371e7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_371e7.dir/feature_tests.c.o   -c /home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_371e7
-/home/newton/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_371e7.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_371e7.dir/feature_tests.c.o  -o cmTC_371e7 
-gmake[1]: Leaving directory '/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ad3b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad3b8.dir/build.make CMakeFiles/cmTC_ad3b8.dir/build
+make[1]: Entering directory '/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad3b8.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_ad3b8.dir/feature_tests.c.o   -c /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ad3b8
+/home/knifey-moloko/Downloads/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad3b8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ad3b8.dir/feature_tests.c.o  -o cmTC_ad3b8 
+make[1]: Leaving directory '/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -167,17 +175,17 @@ gmake[1]: Leaving directory '/home/newton/Programming/C/InputOutputBasic/cmake-b
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_794a1/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_794a1.dir/build.make CMakeFiles/cmTC_794a1.dir/build
-gmake[1]: Entering directory '/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_794a1.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_794a1.dir/feature_tests.c.o   -c /home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_794a1
-/home/newton/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_794a1.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_794a1.dir/feature_tests.c.o  -o cmTC_794a1 
-gmake[1]: Leaving directory '/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a4ff2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4ff2.dir/build.make CMakeFiles/cmTC_a4ff2.dir/build
+make[1]: Entering directory '/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4ff2.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a4ff2.dir/feature_tests.c.o   -c /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a4ff2
+/home/knifey-moloko/Downloads/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4ff2.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a4ff2.dir/feature_tests.c.o  -o cmTC_a4ff2 
+make[1]: Leaving directory '/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes

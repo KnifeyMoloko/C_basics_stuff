@@ -1,11 +1,4 @@
-/home/newton/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/newton/Programming/C/InputOutputBasic
--- The C compiler identification is GNU 7.3.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
+/home/knifey-moloko/IDEs/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/newton/Programming/C/InputOutputBasic/cmake-build-debug
+-- Build files have been written to: /home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/newton/Programming/C/InputOutputBasic/main.c" "/home/newton/Programming/C/InputOutputBasic/cmake-build-debug/CMakeFiles/InputOutputBasic.dir/main.c.o"
+  "/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/main.c" "/home/knifey-moloko/Programming/C/C_basics_stuff/InputOutputBasic/cmake-build-debug/CMakeFiles/InputOutputBasic.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
