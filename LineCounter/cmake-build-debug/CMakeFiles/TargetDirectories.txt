@@ -1,0 +1,3 @@
+/home/knifey-moloko/Programming/C/C_basics_stuff/LineCounter/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/knifey-moloko/Programming/C/C_basics_stuff/LineCounter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/knifey-moloko/Programming/C/C_basics_stuff/LineCounter/cmake-build-debug/CMakeFiles/LineCounter.dir
