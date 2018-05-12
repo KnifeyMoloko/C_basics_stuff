@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* count newlines, tabs and blanks - switch-case version */
+/* count newlines, tabs and blanks - back to if-else structure, works ok */
 main() {
     int c, newlines, tabs, blanks;
 
@@ -8,15 +8,13 @@ main() {
     tabs = 0;
     blanks = 0;
 
-    c = getchar();
-    while (c != EOF) {
-        switch (c) {
-            case '\n': ++newlines;
-            case '\t': ++tabs;
-            case ' ': ++blanks;
-            default: 0;
-        }
-        printf("%d %d %d\n", newlines, tabs, blanks);
-        c = getchar();
+    while ((c = getchar()) != EOF) {
+        if (c == '\n')
+            ++newlines;
+        else if (c == '\t')
+            ++tabs;
+        else if (c == ' ')
+            ++blanks;
     }
+    printf("%d %d %d\n", newlines, tabs, blanks);
 }
