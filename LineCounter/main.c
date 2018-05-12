@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* count input lines ver 1 */
+/* count input lines ver 0.2 - more sensible print call */
 main() {
     int c, nl;
 
@@ -8,10 +8,10 @@ main() {
     c = getchar();
 
     while (c != EOF) {
-        if (c == '\n')
+        if (c == '\n') {
             ++nl;
-        printf("%d\n", nl);
+            printf("%d\n", nl);
+        }
         c = getchar();
     }
-
 }
