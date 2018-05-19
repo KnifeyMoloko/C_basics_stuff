@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Exercise_1_9_TrimBlanks.dir/main.c.o  -o Exercise_1_9_TrimBlanks 
