@@ -1,0 +1,47 @@
+ght, and it is guaranteed that evaluation will stop as soon as the truth or falsehood is known.
+If c is a blank, there is no need to test whether it is a newline or tab, so these tests are not
+made. This isn't particularly important here, but is significant in more complicated situations,
+as we will soon see.
+The example also shows an else , which specifies an alternative action if the condition part of
+an if statement is false. The general form is
+if (expression)
+statement 1
+else
+statement 2
+One and only one of the two statements associated with an if-else is performed. If the
+expression is true, statement 1 is executed; if not, statement 2 is executed. Each statement can
+be a single statement or several in braces. In the word count program, the one after the else is
+an if that controls two statements in braces.
+Exercise 1-11. How would you test the word count program? What kinds of input are most
+likely to uncover bugs if there are any?
+Exercise 1-12. Write a program that prints its input one word per line.
+1.6 Arrays
+Let is write a program to count the number of occurrences of each digit, of white space
+characters (blank, tab, newline), and of all other characters. This is artificial, but it permits us
+to illustrate several aspects of C in one program.
+There are twelve categories of input, so it is convenient to use an array to hold the number of
+occurrences of each digit, rather than ten individual variables. Here is one version of the
+program:24
+#include <stdio.h>
+/* count digits, white space, others */
+main()
+{
+int c, i, nwhite, nother;
+int ndigit[10];
+nwhite = nother = 0;
+for (i = 0; i < 10; ++i)
+ndigit[i] = 0;
+while ((c = getchar()) != EOF)
+if (c >= '0' && c <= '9')
+++ndigit[c-'0'];
+else if (c == ' ' || c == '\n' || c == '\t')
+++nwhite;
+else
+++nother;
+printf("digits =");
+for (i = 0; i < 10; ++i)
+printf(" %d", ndigit[i]);
+printf(", white space = %d, other = %d\n",
+nwhite, nother);
+}
+The output of this program on itself is
