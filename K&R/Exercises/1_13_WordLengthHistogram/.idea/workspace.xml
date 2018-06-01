@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="1_6_Arrays_DigitAndCharCounter" targetName="1_6_Arrays_DigitAndCharCounter" />
+      <config projectName="1_13_WordLengthHistogram" targetName="1_13_WordLengthHistogram" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d67aa91-8917-426b-97b3-5d8b560c87c9" name="Default" comment="" />
+    <list default="true" id="0feb1986-f69e-429d-a5d3-ae2f53e35524" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="455">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,16 +98,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.1_6_Arrays_DigitAndCharCounter">
-    <configuration name="1_6_Arrays_DigitAndCharCounter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1_6_Arrays_DigitAndCharCounter" TARGET_NAME="1_6_Arrays_DigitAndCharCounter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1_6_Arrays_DigitAndCharCounter" RUN_TARGET_NAME="1_6_Arrays_DigitAndCharCounter">
+  <component name="RunManager" selected="Application.1_13_WordLengthHistogram">
+    <configuration name="1_13_WordLengthHistogram" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1_13_WordLengthHistogram" TARGET_NAME="1_13_WordLengthHistogram" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1_13_WordLengthHistogram" RUN_TARGET_NAME="1_13_WordLengthHistogram">
       <envs />
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1_6_Arrays_DigitAndCharCounter" RUN_TARGET_NAME="1_6_Arrays_DigitAndCharCounter" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1_13_WordLengthHistogram" RUN_TARGET_NAME="1_13_WordLengthHistogram" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.1_6_Arrays_DigitAndCharCounter" />
+      <item index="1" class="java.lang.String" itemvalue="Application.1_13_WordLengthHistogram" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -118,17 +118,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d67aa91-8917-426b-97b3-5d8b560c87c9" name="Default" comment="" />
-      <created>1527851059444</created>
+      <changelist id="0feb1986-f69e-429d-a5d3-ae2f53e35524" name="Default" comment="" />
+      <created>1527887064876</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1527851059444</updated>
-      <workItem from="1527851066010" duration="1930000" />
+      <updated>1527887064876</updated>
+      <workItem from="1527887067260" duration="3593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1930000" />
+    <option name="totallyTimeSpent" value="3593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1366" height="734" extended-state="6" />
@@ -174,8 +174,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="455">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
