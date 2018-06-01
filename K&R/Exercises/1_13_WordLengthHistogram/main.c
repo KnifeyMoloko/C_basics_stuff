@@ -7,13 +7,11 @@
  * lengths of words in the input, omits 0-count lengths for readability. */
 
 main() {
-    int i, j, c, wordNum, lineNum, currLen, state;
+    int i, j, k, c, wordNum, lineNum, currLen, xAxis, yAxis, state;
     int wordLengthCount[SIZE];
-    int histogramXAxis;
-    int histogramYAxis;
 
     state = OUT;
-    lineNum = wordNum = currLen = 0;
+    lineNum = wordNum = currLen = xAxis = yAxis = 0;
     for (i = 0; i < SIZE; i++)
         wordLengthCount[i] = 0;
 
@@ -36,10 +34,18 @@ main() {
             currLen++;
     }
 
-    for (j = 1; j < SIZE; j++) {
-        if (wordLengthCount[j] != 0)
-            printf("The number of words with length %d is: %d\n", j, wordLengthCount[j]);
+    for (j = SIZE; j > 0; j--) {
+        if (wordLengthCount[j] != 0) {
+            yAxis = j;
+            break;
+        }
     }
 
+    for (k = 1; k < SIZE; k++) {
+        if (wordLengthCount[k] != 0)
+            xAxis++;
+    }
 
+    printf("The Y axis max is: %d\n", yAxis);
+    printf("The X axis should be at least %d long\n", xAxis);
 }
