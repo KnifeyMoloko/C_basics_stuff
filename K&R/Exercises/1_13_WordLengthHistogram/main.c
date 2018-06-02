@@ -6,8 +6,9 @@
 /* A program based of off a wc knockoff program. Produces a histogram of the
  * lengths of words in the input, omits 0-count lengths for readability. */
 
-main() {
-    int i, j, k, c, wordNum, lineNum, currLen, xAxis, yAxis, state;
+int main() {
+    int wordNum, lineNum, currLen, xAxis, yAxis, state;
+    int i, j, k, c, q, w;
     int wordLengthCount[SIZE];
 
     state = OUT;
@@ -46,6 +47,18 @@ main() {
             xAxis++;
     }
 
-    printf("The Y axis max is: %d\n", yAxis);
-    printf("The X axis should be at least %d long\n", xAxis);
+    for (q = yAxis; q >= 1; q--) {
+        for (w = 1; w <= xAxis; w++) {
+            if (wordLengthCount[w] >= q)
+                printf("|X|");
+
+            else
+                printf("| |");
+        }
+        printf("\n"); /* skip to the next line */
+    }
+    for (w = 1; w <= xAxis; w++) {
+        printf("|%d|", w);
+    }
+    return 0;
 }
