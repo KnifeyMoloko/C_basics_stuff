@@ -6,18 +6,22 @@
 /* A program based of off a wc knockoff program. Produces a histogram of the
  * lengths of words in the input, omits 0-count lengths for readability. */
 
-main() {
-    int i, j, k, c, wordNum, lineNum, currLen, xAxis, yAxis, state;
+int main() {
+    /* Definitions */
+    int i, j, k, c, wordNum, currLen, xAxis, yAxis, state;
     int wordLengthCount[SIZE];
+    int maxPosition;
+    int maxValue;
 
+    /* Inits */
     state = OUT;
-    lineNum = wordNum = currLen = xAxis = yAxis = 0;
+    maxPosition = maxValue = wordNum = currLen = xAxis = yAxis = 0;
+
+    /* Fill out the wordLenghtCount array with zeroes */
     for (i = 0; i < SIZE; i++)
         wordLengthCount[i] = 0;
 
     while ((c = getchar()) != EOF) {
-        if (c == '\n')
-            ++lineNum;
         if (c == ' ' || c == '\t' || c == '\n'
             || c == ',' || c == '.' || c == ';'
             || c == '?' || c == '!' || c == ':'
@@ -26,7 +30,6 @@ main() {
             wordLengthCount[currLen]++; /* increment the count for the word length equal to current word length */
             state = OUT;
             currLen = 0;
-
         }
         else if (state == OUT)
             state = IN;
@@ -34,18 +37,32 @@ main() {
             currLen++;
     }
 
-    for (j = SIZE; j > 0; j--) {
-        if (wordLengthCount[j] != 0) {
-            yAxis = j;
+    /* write out the contents of wordsLenghtCount */
+    for (k = 0; k < SIZE; k++)
+        printf("%d,", wordLengthCount[k]);
+
+    /* try to find the last meaningful (non-zero) entry in wordLenghtCount, set an int to that value
+     * start with SIZE - 1 to avoid going over the actual size of the array */
+    for (k = SIZE-1; k>= 0; k--) {
+        if (wordLengthCount[k] > 0) {
+            printf("value at position %d is: %d\n", k, wordLengthCount[k]);
+            maxPosition = k;
             break;
         }
     }
 
-    for (k = 1; k < SIZE; k++) {
-        if (wordLengthCount[k] != 0)
-            xAxis++;
+    /* Since maxPosition tells us how many relevant values we have, we can use
+     * it to find the max value of occurences; we start at 1 to avoid counting
+     * spaces */
+
+    for (k = 1; k < maxPosition; k++) {
+        if (maxValue <= wordLengthCount[k])
+            maxValue = wordLengthCount[k];
     }
 
-    printf("The Y axis max is: %d\n", yAxis);
-    printf("The X axis should be at least %d long\n", xAxis);
+    printf("maxPosition is: %d\n", maxPosition);
+    printf("maxValue is: %d\n", maxValue);
+
+    /* TODO: make a printer loop to go through every row of yAxis and then use maxPosition and wordLengthCount to iterate through the xAxis printing either a symbol or a space depening on the value associated with that column */
+
 }
