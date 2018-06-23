@@ -37,10 +37,6 @@ int main() {
             currLen++;
     }
 
-    /* write out the contents of wordsLenghtCount */
-    for (k = 0; k < SIZE; k++)
-        printf("%d,", wordLengthCount[k]);
-
     /* try to find the last meaningful (non-zero) entry in wordLenghtCount, set an int to that value
      * start with SIZE - 1 to avoid going over the actual size of the array */
     for (k = SIZE-1; k>= 0; k--) {
@@ -63,6 +59,130 @@ int main() {
     printf("maxPosition is: %d\n", maxPosition);
     printf("maxValue is: %d\n", maxValue);
 
-    /* TODO: make a printer loop to go through every row of yAxis and then use maxPosition and wordLengthCount to iterate through the xAxis printing either a symbol or a space depening on the value associated with that column */
 
+    /* Create histogram header */
+    printf("   HISTOGRAM\n\n");
+
+    /* Define xAxis and yAxis seperately for readability */
+    yAxis = maxValue;
+    xAxis = maxPosition;
+
+    /* Loop through rows and then columns and print out markers to create a histogram */
+    /* Column loop */
+    for (i = yAxis; i >= 0; i--) {
+        /* Row loop */
+            /* When you hit the bottom row, print out the values under the
+             * columns, depending on how big the maxValue is */
+        if (i == 0) {
+            if (maxValue < 10) {
+                printf("        ");
+                for (j = 1; j <= xAxis; j++) {
+                    printf("%d    ", wordLengthCount[j]);
+                }
+            }
+
+            else if (maxValue >= 10 && maxValue < 100) {
+                printf("       ");
+                for (j = 1; j <= xAxis; j++) {
+                    if (wordLengthCount[j] >= 10)
+                    printf(" %d  ", wordLengthCount[j]);
+                    else
+                        printf("  %d  ", wordLengthCount[j]);
+                }
+            }
+
+            else if (maxValue >= 100 && maxValue < 1000) {
+                printf("      ");
+                for (j = 1; j <= xAxis; j++) {
+                    if (wordLengthCount[j] >= 100)
+                        printf("%d  ", wordLengthCount[j]);
+                    else if (wordLengthCount[j] >= 10)
+                        printf(" %d  ", wordLengthCount[j]);
+                    else
+                        printf("  %d  ", wordLengthCount[j]);
+                }
+            }
+
+            else if (maxValue >= 1000 && maxValue < 10000) {
+                printf("     ");
+                for (j = 1; j <= xAxis; j++) {
+                    if (wordLengthCount[j] >= 1000)
+                        printf("%d ", wordLengthCount[j]);
+                    else if (wordLengthCount[j] >= 100)
+                        printf(" %d ", wordLengthCount[j]);
+                    else if (wordLengthCount[j] >= 10)
+                        printf("  %d ", wordLengthCount[j]);
+                    else
+                        printf("   %d ", wordLengthCount[j]);
+                }
+            }
+
+            else if (maxValue >= 1000 && maxValue < 10000) {
+                printf("    ");
+                for (j = 1; j <= xAxis; j++) {
+                    if (wordLengthCount[j] >= 10000)
+                        printf("%d", wordLengthCount[j]);
+                    else if (wordLengthCount[j] >= 1000)
+                        printf(" %d", wordLengthCount[j]);
+                    else if (wordLengthCount[j] >= 100)
+                        printf("  %d", wordLengthCount[j]);
+                    else if (wordLengthCount[j] >= 10)
+                        printf("   %d", wordLengthCount[j]);
+                    else
+                        printf("    %d", wordLengthCount[j]);
+
+                }
+            }
+        }
+
+        /*end bottom row printing */
+        /* print out the first column with indexing numbers, then go column by column
+         * and leave a marker if the value of the corresponding array pos is >= */
+
+        else if (i < 10) {
+            for (j = 0; j <= xAxis; j++) {
+                if (j == 0)
+                    printf("   %d|", i);
+                else if (i <= wordLengthCount[j])
+                    printf("  ^  ");
+                else
+                    printf("     ");
+            }
+        }
+
+        else if (i < 100 && i >= 10 ) {
+            for (j = 0; j <= xAxis; j++) {
+                if (j == 0)
+                    printf("  %d|", i);
+                else if (i <= wordLengthCount[j])
+                    printf("  ^  ");
+                else
+                    printf("     ");
+            }
+        }
+
+        else if (i >= 100 && i < 1000) {
+            for (j = 0; j <= xAxis; j++) {
+                if (j == 0)
+                    printf(" %d|", i);
+                else if (i <= wordLengthCount[j])
+                    printf("  ^  ");
+                else
+                    printf("     ");
+            }
+        }
+
+        else
+            for (j = 0; j <= xAxis; j++) {
+                if (j == 0)
+                    printf("%d|", i);
+                else if (i <= wordLengthCount[j])
+                    printf("  ^  ");
+                else
+                    printf("     ");
+            }
+        /* end of xAxis (row) loop */
+        printf("\n"); /* skip to next line */
+    }
+    /* end of yAxis (column) loop */
 }
