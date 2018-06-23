@@ -144,9 +144,9 @@ int main() {
                 if (j == 0)
                     printf("   %d|", i);
                 else if (i <= wordLengthCount[j])
-                    printf("  ^  ");
+                    printf("  ^ |");
                 else
-                    printf("     ");
+                    printf("    |");
             }
         }
 
@@ -155,9 +155,9 @@ int main() {
                 if (j == 0)
                     printf("  %d|", i);
                 else if (i <= wordLengthCount[j])
-                    printf("  ^  ");
+                    printf("  ^ |");
                 else
-                    printf("     ");
+                    printf("    |");
             }
         }
 
@@ -166,9 +166,9 @@ int main() {
                 if (j == 0)
                     printf(" %d|", i);
                 else if (i <= wordLengthCount[j])
-                    printf("  ^  ");
+                    printf("  ^ |");
                 else
-                    printf("     ");
+                    printf("    |");
             }
         }
 
@@ -177,9 +177,9 @@ int main() {
                 if (j == 0)
                     printf("%d|", i);
                 else if (i <= wordLengthCount[j])
-                    printf("  ^  ");
+                    printf("  ^ |");
                 else
-                    printf("     ");
+                    printf("    |");
             }
         /* end of xAxis (row) loop */
         printf("\n"); /* skip to next line */
