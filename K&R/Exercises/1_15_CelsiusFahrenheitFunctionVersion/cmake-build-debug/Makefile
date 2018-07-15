@@ -48,10 +48,10 @@ RM = /home/newton/CLion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/newton/Programming/C/K&R/Exercises/1_4_CelsiusFahrenheitFloat"
+CMAKE_SOURCE_DIR = "/home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/newton/Programming/C/K&R/Exercises/1_4_CelsiusFahrenheitFloat/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Exercises/1_4_CelsiusFahrenheitFloat/cmake-build-debug/CMakeFiles" "/home/newton/Programming/C/K&R/Exercises/1_4_CelsiusFahrenheitFloat/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion/cmake-build-debug/CMakeFiles" "/home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Exercises/1_4_CelsiusFahrenheitFloat/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CelsiusFahrenheitFloat
+# Target rules for targets named 1_15_CelsiusFahrenheitFunctionVersion
 
 # Build rule for target.
-CelsiusFahrenheitFloat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CelsiusFahrenheitFloat
-.PHONY : CelsiusFahrenheitFloat
+1_15_CelsiusFahrenheitFunctionVersion: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1_15_CelsiusFahrenheitFunctionVersion
+.PHONY : 1_15_CelsiusFahrenheitFunctionVersion
 
 # fast build rule for target.
-CelsiusFahrenheitFloat/fast:
-	$(MAKE) -f CMakeFiles/CelsiusFahrenheitFloat.dir/build.make CMakeFiles/CelsiusFahrenheitFloat.dir/build
-.PHONY : CelsiusFahrenheitFloat/fast
+1_15_CelsiusFahrenheitFunctionVersion/fast:
+	$(MAKE) -f CMakeFiles/1_15_CelsiusFahrenheitFunctionVersion.dir/build.make CMakeFiles/1_15_CelsiusFahrenheitFunctionVersion.dir/build
+.PHONY : 1_15_CelsiusFahrenheitFunctionVersion/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/CelsiusFahrenheitFloat.dir/build.make CMakeFiles/CelsiusFahrenheitFloat.dir/main.c.o
+	$(MAKE) -f CMakeFiles/1_15_CelsiusFahrenheitFunctionVersion.dir/build.make CMakeFiles/1_15_CelsiusFahrenheitFunctionVersion.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/CelsiusFahrenheitFloat.dir/build.make CMakeFiles/CelsiusFahrenheitFloat.dir/main.c.i
+	$(MAKE) -f CMakeFiles/1_15_CelsiusFahrenheitFunctionVersion.dir/build.make CMakeFiles/1_15_CelsiusFahrenheitFunctionVersion.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/CelsiusFahrenheitFloat.dir/build.make CMakeFiles/CelsiusFahrenheitFloat.dir/main.c.s
+	$(MAKE) -f CMakeFiles/1_15_CelsiusFahrenheitFunctionVersion.dir/build.make CMakeFiles/1_15_CelsiusFahrenheitFunctionVersion.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... CelsiusFahrenheitFloat"
+	@echo "... 1_15_CelsiusFahrenheitFunctionVersion"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

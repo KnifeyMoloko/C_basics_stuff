@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/knifey-moloko/Programming/C/C_basics_stuff/CelsiusFahrenheitFloat/main.c
+/home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion/main.c
 stdio.h
 -
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/newton/Programming/C/K&R/Exercises/1_4_CelsiusFahrenheitFloat
+# Install script for directory: /home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/newton/Programming/C/K&R/Exercises/1_4_CelsiusFahrenheitFloat/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

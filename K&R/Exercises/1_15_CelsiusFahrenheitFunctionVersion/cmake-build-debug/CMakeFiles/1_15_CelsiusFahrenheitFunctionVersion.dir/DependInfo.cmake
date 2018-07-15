@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/newton/Programming/C/K&R/Exercises/1_4_CelsiusFahrenheitFloat/main.c" "/home/newton/Programming/C/K&R/Exercises/1_4_CelsiusFahrenheitFloat/cmake-build-debug/CMakeFiles/CelsiusFahrenheitFloat.dir/main.c.o"
+  "/home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion/main.c" "/home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion/cmake-build-debug/CMakeFiles/1_15_CelsiusFahrenheitFunctionVersion.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

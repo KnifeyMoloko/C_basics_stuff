@@ -1,4 +1,4 @@
-/home/newton/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/newton/Programming/C/K&R/Exercises/1_4_CelsiusFahrenheitFloat
+/home/newton/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion
 -- The C compiler identification is GNU 7.3.0
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
@@ -8,4 +8,4 @@
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/newton/Programming/C/K&R/Exercises/1_4_CelsiusFahrenheitFloat/cmake-build-debug
+-- Build files have been written to: /home/newton/Programming/C/K&R/Exercises/1_15_CelsiusFahrenheitFunctionVersion/cmake-build-debug
