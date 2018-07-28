@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/1_16_ArbitratyLineLegth.dir/main.c.o  -o 1_16_ArbitratyLineLegth 

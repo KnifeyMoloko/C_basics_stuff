@@ -1,0 +1,3 @@
+/home/newton/Programming/C/K&R/Examples/1_9_MaxLineLength/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/newton/Programming/C/K&R/Examples/1_9_MaxLineLength/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/newton/Programming/C/K&R/Examples/1_9_MaxLineLength/cmake-build-debug/CMakeFiles/1_9_MaxLineLength.dir
