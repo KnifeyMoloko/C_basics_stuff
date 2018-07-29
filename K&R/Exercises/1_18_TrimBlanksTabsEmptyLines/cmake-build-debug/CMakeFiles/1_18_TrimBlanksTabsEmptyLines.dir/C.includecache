@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/newton/Programming/C/K&R/Exercises/1_18_TrimBlanksTabsEmptyLines/main.c
+stdio.h
+-
+limits.h
+-
+
