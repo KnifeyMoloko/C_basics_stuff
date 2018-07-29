@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/1_17_Only80PlusLines.dir/main.c.o  -o 1_17_Only80PlusLines 
