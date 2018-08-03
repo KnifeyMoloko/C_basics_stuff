@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/1_19_ReverseString.dir/main.c.o  -o 1_19_ReverseString 
