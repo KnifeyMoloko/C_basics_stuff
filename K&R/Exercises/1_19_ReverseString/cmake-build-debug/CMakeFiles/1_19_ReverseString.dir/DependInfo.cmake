@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString/main.c" "/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString/cmake-build-debug/CMakeFiles/1_19_ReverseString.dir/main.c.o"
+  "/home/knifey-moloko/Programming/C_basics_stuff/K&R/Exercises/1_19_ReverseString/main.c" "/home/knifey-moloko/Programming/C_basics_stuff/K&R/Exercises/1_19_ReverseString/cmake-build-debug/CMakeFiles/1_19_ReverseString.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

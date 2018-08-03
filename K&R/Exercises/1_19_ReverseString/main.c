@@ -8,7 +8,9 @@ char * reverse (char from[]);
 int main()
 /* Take string from input line by line, reverse and print */
 {
-    printf("%s", reverse(getLine()));
+    char ending[19] = "***END OF INPUT***";
+    while (getLine() != ending)
+        printf("%s", reverse(getLine()));
 
     /*for (int i = SIZE; i >= 0; i--)
         printf("%c", reverse(getLine(limit))[i]);
@@ -22,6 +24,7 @@ char * getLine ()
 
     int c, i;
     static char line[SIZE];
+    char ending[19] = "***END OF INPUT***";
 
     for (i = 0; i < SIZE -1 && (c=getchar()) != EOF && c != '\n'; i++)
     {
@@ -34,22 +37,20 @@ char * getLine ()
         ++i;
     }
 
+    if (c == EOF)
+        return ending;
+
     line[i] = '\0';
 
     return line;
 }
 
 char * reverse (char from[]) {
-    static char reversed[SIZE];
-    int i, j;
-    i = SIZE;
-    j = 0;
+    int i;
+    i = SIZE - 1;
 
     for (i; i >= 0; i--)
         printf("%c", from[i]);
-    //TODO: looks like the terminating zero messes up the reassignment here, I have to make the loop check for it
 
-    printf("%s", reversed);
-
-    return reversed;
+    return 0;
 }
