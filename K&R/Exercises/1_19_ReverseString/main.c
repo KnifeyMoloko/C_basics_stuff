@@ -2,55 +2,63 @@
 #include <limits.h>
 #define SIZE LINE_MAX
 
-char * getLine ();
-char * reverse (char from[]);
+int fetchLine (int limit);
+int reverseLine (char line[], int limit);
 
 int main()
 /* Take string from input line by line, reverse and print */
 {
-    char ending[19] = "***END OF INPUT***";
-    while (getLine() != ending)
-        printf("%s", reverse(getLine()));
+    /* A while loop tied to the return values of fetchLine
+     * so we can tell if EOF was hit == return 1 from
+     * fetchLine.
+     * */
 
-    /*for (int i = SIZE; i >= 0; i--)
-        printf("%c", reverse(getLine(limit))[i]);
-    */
+    while (fetchLine(SIZE) != 1)
+        ;
     return 0;
 }
 
-char * getLine ()
-{
-    /* getline: read a line into s, return s */
+int fetchLine (int limit) {
+    /* retrieves a line from input, one character at a time
+     * and calls reverseLine on each of the lines, then
+     * returns 0 until it hits EOF, at which point it
+     * return 1
+     * */
 
-    int c, i;
-    static char line[SIZE];
-    char ending[19] = "***END OF INPUT***";
+    int i, c;
+    char inputArray[limit];
+    i = 0;
 
-    for (i = 0; i < SIZE -1 && (c=getchar()) != EOF && c != '\n'; i++)
-    {
-        line[i] = (char) c;
+    /* Add chars to inputArray until nextline or EOD */
+    while ((c = getchar()) != EOF && c != '\n') {
+        inputArray[i] = c;
+        i++;
     }
-
-    if (c == '\n')
-    {
-        line[i] = (char) c;
-        ++i;
+    /* If nextline, append the inputAray, add a termination char and call
+     * reverseLine on the array, else return 1 to terminate the program. */
+    if (c == '\n') {
+        inputArray[i] = c;
+        i++;
+        inputArray[i] = '\0';
+        reverseLine(inputArray, i);
+        return 0;
     }
-
-    if (c == EOF)
-        return ending;
-
-    line[i] = '\0';
-
-    return line;
+    else
+        return 1;
 }
 
-char * reverse (char from[]) {
-    int i;
-    i = SIZE - 1;
+int reverseLine (char line[], int limit) {
+    /* Takes line array and int limit as parameters, uses the limit
+     * as boundary for a for loop that decrements from limit, adding
+     * chars to a 'reversed' array, then prints the 'reversed' array */
 
-    for (i; i >= 0; i--)
-        printf("%c", from[i]);
-
+    int i,j;
+    char reversed[limit];
+    for (i = limit - 2, j = 0; i >= 0; i--, j++)
+        /* -2 offset for nextline and termination chars at the end */
+        reversed[j] = line[i];
+    reversed[j] = '\n';
+    reversed[j+1] = '\0';
+    printf("%s", reversed);
     return 0;
 }
