@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 /home/newton/IDEs/CLion2018/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/newton/Programming/C/K&R/Exercises/1_19_ReverseString
 -- The C compiler identification is GNU 7.3.0
+||||||| merged common ancestors
+/home/newton/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/newton/Programming/C/K&R/Exercises/1_19_ReverseString
+-- The C compiler identification is GNU 7.3.0
+=======
+/home/knifey-moloko/IDEs/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/knifey-moloko/Programming/C_basics_stuff/K&R/Exercises/1_19_ReverseString
+-- The C compiler identification is GNU 5.4.0
+>>>>>>> 0de47f2fae6b511e80ee90e90d19b7fed2d2b74f
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
 -- Detecting C compiler ABI info
@@ -8,4 +16,4 @@
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/newton/Programming/C/K&R/Exercises/1_19_ReverseString/cmake-build-debug
+-- Build files have been written to: /home/knifey-moloko/Programming/C_basics_stuff/K&R/Exercises/1_19_ReverseString/cmake-build-debug
