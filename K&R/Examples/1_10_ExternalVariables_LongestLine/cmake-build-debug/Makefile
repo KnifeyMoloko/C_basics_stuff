@@ -48,10 +48,10 @@ RM = /home/newton/IDEs/CLion2018/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString"
+CMAKE_SOURCE_DIR = "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString/cmake-build-debug/CMakeFiles" "/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles" "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 1_19_ReverseString
+# Target rules for targets named 1_10_ExternalVariables_LongestLine
 
 # Build rule for target.
-1_19_ReverseString: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1_19_ReverseString
-.PHONY : 1_19_ReverseString
+1_10_ExternalVariables_LongestLine: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1_10_ExternalVariables_LongestLine
+.PHONY : 1_10_ExternalVariables_LongestLine
 
 # fast build rule for target.
-1_19_ReverseString/fast:
-	$(MAKE) -f CMakeFiles/1_19_ReverseString.dir/build.make CMakeFiles/1_19_ReverseString.dir/build
-.PHONY : 1_19_ReverseString/fast
+1_10_ExternalVariables_LongestLine/fast:
+	$(MAKE) -f CMakeFiles/1_10_ExternalVariables_LongestLine.dir/build.make CMakeFiles/1_10_ExternalVariables_LongestLine.dir/build
+.PHONY : 1_10_ExternalVariables_LongestLine/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/1_19_ReverseString.dir/build.make CMakeFiles/1_19_ReverseString.dir/main.c.o
+	$(MAKE) -f CMakeFiles/1_10_ExternalVariables_LongestLine.dir/build.make CMakeFiles/1_10_ExternalVariables_LongestLine.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/1_19_ReverseString.dir/build.make CMakeFiles/1_19_ReverseString.dir/main.c.i
+	$(MAKE) -f CMakeFiles/1_10_ExternalVariables_LongestLine.dir/build.make CMakeFiles/1_10_ExternalVariables_LongestLine.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/1_19_ReverseString.dir/build.make CMakeFiles/1_19_ReverseString.dir/main.c.s
+	$(MAKE) -f CMakeFiles/1_10_ExternalVariables_LongestLine.dir/build.make CMakeFiles/1_10_ExternalVariables_LongestLine.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... 1_19_ReverseString"
+	@echo "... 1_10_ExternalVariables_LongestLine"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

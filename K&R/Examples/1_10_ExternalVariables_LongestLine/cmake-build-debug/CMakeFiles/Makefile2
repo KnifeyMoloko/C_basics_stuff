@@ -59,45 +59,45 @@ RM = /home/newton/IDEs/CLion2018/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString"
+CMAKE_SOURCE_DIR = "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/1_19_ReverseString.dir
+# Target rules for target CMakeFiles/1_10_ExternalVariables_LongestLine.dir
 
 # All Build rule for target.
-CMakeFiles/1_19_ReverseString.dir/all:
-	$(MAKE) -f CMakeFiles/1_19_ReverseString.dir/build.make CMakeFiles/1_19_ReverseString.dir/depend
-	$(MAKE) -f CMakeFiles/1_19_ReverseString.dir/build.make CMakeFiles/1_19_ReverseString.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target 1_19_ReverseString"
-.PHONY : CMakeFiles/1_19_ReverseString.dir/all
+CMakeFiles/1_10_ExternalVariables_LongestLine.dir/all:
+	$(MAKE) -f CMakeFiles/1_10_ExternalVariables_LongestLine.dir/build.make CMakeFiles/1_10_ExternalVariables_LongestLine.dir/depend
+	$(MAKE) -f CMakeFiles/1_10_ExternalVariables_LongestLine.dir/build.make CMakeFiles/1_10_ExternalVariables_LongestLine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target 1_10_ExternalVariables_LongestLine"
+.PHONY : CMakeFiles/1_10_ExternalVariables_LongestLine.dir/all
 
 # Include target in all.
-all: CMakeFiles/1_19_ReverseString.dir/all
+all: CMakeFiles/1_10_ExternalVariables_LongestLine.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/1_19_ReverseString.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1_19_ReverseString.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Exercises/1_19_ReverseString/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/1_19_ReverseString.dir/rule
+CMakeFiles/1_10_ExternalVariables_LongestLine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1_10_ExternalVariables_LongestLine.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/1_10_ExternalVariables_LongestLine.dir/rule
 
 # Convenience name for target.
-1_19_ReverseString: CMakeFiles/1_19_ReverseString.dir/rule
+1_10_ExternalVariables_LongestLine: CMakeFiles/1_10_ExternalVariables_LongestLine.dir/rule
 
-.PHONY : 1_19_ReverseString
-
-# clean rule for target.
-CMakeFiles/1_19_ReverseString.dir/clean:
-	$(MAKE) -f CMakeFiles/1_19_ReverseString.dir/build.make CMakeFiles/1_19_ReverseString.dir/clean
-.PHONY : CMakeFiles/1_19_ReverseString.dir/clean
+.PHONY : 1_10_ExternalVariables_LongestLine
 
 # clean rule for target.
-clean: CMakeFiles/1_19_ReverseString.dir/clean
+CMakeFiles/1_10_ExternalVariables_LongestLine.dir/clean:
+	$(MAKE) -f CMakeFiles/1_10_ExternalVariables_LongestLine.dir/build.make CMakeFiles/1_10_ExternalVariables_LongestLine.dir/clean
+.PHONY : CMakeFiles/1_10_ExternalVariables_LongestLine.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1_10_ExternalVariables_LongestLine.dir/clean
 
 .PHONY : clean
 

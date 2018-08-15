@@ -30,6 +30,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/newton/IDEs/CLion2018/bin/cmake/linux/share/cmake-3.12/Modules/CMakeSystemSpecificInitialize.cmake"
   "/home/newton/IDEs/CLion2018/bin/cmake/linux/share/cmake-3.12/Modules/CMakeTestCCompiler.cmake"
   "/home/newton/IDEs/CLion2018/bin/cmake/linux/share/cmake-3.12/Modules/CMakeTestCompilerCommon.cmake"
+  "/home/newton/IDEs/CLion2018/bin/cmake/linux/share/cmake-3.12/Modules/CMakeUnixFindMake.cmake"
   "/home/newton/IDEs/CLion2018/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/home/newton/IDEs/CLion2018/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/home/newton/IDEs/CLion2018/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
@@ -95,5 +96,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/1_19_ReverseString.dir/DependInfo.cmake"
+  "CMakeFiles/1_10_ExternalVariables_LongestLine.dir/DependInfo.cmake"
   )

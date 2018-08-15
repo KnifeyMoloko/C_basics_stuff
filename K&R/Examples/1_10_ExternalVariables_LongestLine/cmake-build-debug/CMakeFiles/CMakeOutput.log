@@ -1,0 +1,186 @@
+The system is: Linux - 4.17.12-85.current - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_57cd5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_57cd5.dir/build.make CMakeFiles/cmTC_57cd5.dir/build
+gmake[1]: Entering directory '/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57cd5.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_57cd5.dir/testCCompiler.c.o   -c "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_57cd5
+/home/newton/IDEs/CLion2018/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57cd5.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_57cd5.dir/testCCompiler.c.o  -o cmTC_57cd5 
+gmake[1]: Leaving directory '/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_59317/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_59317.dir/build.make CMakeFiles/cmTC_59317.dir/build
+gmake[1]: Entering directory '/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59317.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_59317.dir/CMakeCCompilerABI.c.o   -c /home/newton/IDEs/CLion2018/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_59317
+/home/newton/IDEs/CLion2018/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59317.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_59317.dir/CMakeCCompilerABI.c.o  -o cmTC_59317 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/lto-wrapper
+Target: x86_64-solus-linux
+Configured with: ../configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --with-linker-hash-style=gnu --with-gnu-ld --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran
+Thread model: posix
+gcc version 7.3.0 (Solus) 
+COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59317' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-solus-linux/7.3.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/7.3.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPlks1w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_59317 /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0 -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../.. CMakeFiles/cmTC_59317.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59317' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_59317/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_59317.dir/build.make CMakeFiles/cmTC_59317.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_59317.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_59317.dir/CMakeCCompilerABI.c.o   -c /home/newton/IDEs/CLion2018/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_59317]
+  ignore line: [/home/newton/IDEs/CLion2018/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59317.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_59317.dir/CMakeCCompilerABI.c.o  -o cmTC_59317 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-solus-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --with-linker-hash-style=gnu --with-gnu-ld --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Solus) ]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59317' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-solus-linux/7.3.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/7.3.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPlks1w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_59317 /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0 -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../.. CMakeFiles/cmTC_59317.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crtn.o]
+    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPlks1w.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/usr/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_59317] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-solus-linux/7.3.0] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0]
+    arg [-L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../..]
+    arg [CMakeFiles/cmTC_59317.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/crtend.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0] ==> [/usr/lib64/gcc/x86_64-solus-linux/7.3.0]
+  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../..] ==> [/usr/lib64]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib64/gcc/x86_64-solus-linux/7.3.0;/usr/lib64;/lib64]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_efd50/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_efd50.dir/build.make CMakeFiles/cmTC_efd50.dir/build
+gmake[1]: Entering directory '/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efd50.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_efd50.dir/feature_tests.c.o   -c "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_efd50
+/home/newton/IDEs/CLion2018/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efd50.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_efd50.dir/feature_tests.c.o  -o cmTC_efd50 
+gmake[1]: Leaving directory '/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d92b3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d92b3.dir/build.make CMakeFiles/cmTC_d92b3.dir/build
+gmake[1]: Entering directory '/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d92b3.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_d92b3.dir/feature_tests.c.o   -c "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_d92b3
+/home/newton/IDEs/CLion2018/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d92b3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d92b3.dir/feature_tests.c.o  -o cmTC_d92b3 
+gmake[1]: Leaving directory '/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4758d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4758d.dir/build.make CMakeFiles/cmTC_4758d.dir/build
+gmake[1]: Entering directory '/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4758d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_4758d.dir/feature_tests.c.o   -c "/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_4758d
+/home/newton/IDEs/CLion2018/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4758d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4758d.dir/feature_tests.c.o  -o cmTC_4758d 
+gmake[1]: Leaving directory '/home/newton/Programming/C/K&R/Examples/1_10_ExternalVariables_LongestLine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
