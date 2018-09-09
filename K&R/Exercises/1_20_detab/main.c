@@ -12,9 +12,15 @@ int main() {
     int lineLimit = LINE; // define maximum line length by using LINE_MAX macro
     int tabStopWidth = STOP; // define tab stop width
     int numOfTabStops = LINE / STOP; // calculate the number of tab stops
+    int output[LINE]
     printf("%d\t %d\t %d\n", lineLimit, tabStopWidth, numOfTabStops);
 
     //TODO: get input
+        //TODO: use getchar()
+            //TODO: if EOF, return the output array
+            //TODO: in nextline, reset the char postion counter
+            //TODO: if /t, get the postion in line
+
     //TODO: for every encountered, get tab position in line
     //TODO: calculate how far is the tab's position from the next tab stop
     //TODO: if the tab is at the tab stops position
